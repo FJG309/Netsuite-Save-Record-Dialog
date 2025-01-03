@@ -6,7 +6,7 @@
 // This script adds a dialog to the saveRecord entry point that the user must accept in order to save the record.
 // Updated version of: https://gist.github.com/abacijson/2f4410ed54c0b5085c1cb015008cf48a
 
-define("[N/ui/dialog]", (dialog) => {
+define(['N/ui/dialog'], (dialog) => {
   let finalResult = false;
   let finalResultSet = false;
 
